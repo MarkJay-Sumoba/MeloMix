@@ -1,0 +1,105 @@
+.main-container {
+  width: 100%;
+  height: 125vh;
+  /* background-color: #e1e1e1; */
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    45deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgb(9, 174, 207) 100%
+  );
+
+  border-radius: 30px;
+  opacity: 1;
+}
+
+.logo h1 {
+  font-family: "Amatic SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+}
+
+.left-container {
+  width: 60%;
+  margin-right: 2%;
+  height: 100%;
+  /* border: 1px solid #000; */
+  justify-content: center;
+  align-items: center;
+}
+
+.searchbar-container {
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  /* border: 1px solid #000; */
+  padding: 2%;
+}
+
+.playlist-container {
+  margin: 2% 2%;
+}
+
+.searchresult-container {
+  /* border: 1px solid #000; */
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.genre-recommand-container {
+  display: flex;
+  flex-direction: column;
+  height: 600px;
+  width: 40%;
+  padding: 2.25rem 1.15rem;
+  border-radius: 30px;
+  backdrop-filter: blur(30px);
+  overflow-y: hidden;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+}
+
+.widget {
+  gap: 20px;
+}
+
+/* Right Side of the main container */
+.right-container {
+  width: 35%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 2%;
+  margin-top: 20px;
+  /* border: 1px solid #000; */
+  /* padding: 2.25rem 1.15rem;
+  border-radius: 30px;
+  backdrop-filter: blur(30px);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37); */
+}
+
+.lyrics-container {
+  height: 60%;
+  padding: 2.25rem 1.15rem;
+  border-radius: 30px;
+  /* background-color: rgba(1, 12, 63, 0.7); */
+  backdrop-filter: blur(30px);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  overflow-y: auto;
+}
+
+.current-playlist {
+  margin-top: 10px;
+  height: 40%;
+  padding: 2.25rem 1.15rem;
+  border-radius: 30px;
+  /* background-color: rgba(1, 12, 63, 0.7); */
+  backdrop-filter: blur(30px);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+}
+
+iframe {
+  display: none;
+}

@@ -1,0 +1,16 @@
+.Lyrics-loading {
+  font-style: italic;
+  color: #888;
+}
+
+.Lyrics-error {
+  color: #f00;
+}
+
+.Lyrics-text {
+  white-space: pre-wrap;
+  font-family: Arial, sans-serif;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  font-family: "Roboto", sans-serif;
+}

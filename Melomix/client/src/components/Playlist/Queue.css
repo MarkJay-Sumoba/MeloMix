@@ -1,0 +1,58 @@
+.queue {
+  height: 85%;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 80%;
+}
+
+.upNext {
+  background-color: #3e61d2;
+  font-size: 20px;
+  font-weight: 700;
+  color: #fff;
+  text-align: left;
+  margin: 2% 0%;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.queue-list {
+  margin-left: 50px;
+  height: 70%;
+  width: 100%;
+  overflow-y: auto;
+}
+
+.queue-list::-webkit-scrollbar {
+  display: none;
+}
+
+.queue-item {
+  justify-content: space-between;
+  width: 100%;
+  padding: 5px 0px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.queue-item:hover {
+  transform: scale(0.95);
+}
+
+.queue-item img {
+  width: 40%;
+  margin-right: 10px;
+}
+
+.queue-item p {
+  margin: 0px;
+  font-size: 1.2rem;
+}
+
+.track-name {
+  width: 75%;
+  text-overflow: ellipsis;
+}

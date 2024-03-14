@@ -14,6 +14,7 @@ export default function PlayList(props) {
         userSearchResults={props.playlistTracks}
         onRemove={props.onRemove}
         isRemoval={true}
+        playTrack={props.playTrack} // playTrack added by Michael
       />
       <button className="Playlist-save" onClick={props.onSave}>
         SAVE TO SPOTIFY

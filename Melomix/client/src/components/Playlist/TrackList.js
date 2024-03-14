@@ -13,6 +13,7 @@ export default function TrackList(props) {
           isRemoval={props.isRemoval}
           onAdd={props.onAdd}
           onRemove={props.onRemove}
+          playTrack={props.playTrack} // to play track added by Michael
         />
       ))}
     </div>
