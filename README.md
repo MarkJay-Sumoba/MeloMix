@@ -16,11 +16,10 @@
 
 Front-End:
 
-## ![Front](./images/front.png "Front")
-
-Back-End:
-
-## ![Back](./images/back.png "Back")
+- Spotify API
+- Musixmatch API
+- Fontawesome Library
+- React
 
 ## Installations
 
