@@ -1,3 +1,4 @@
-# MixMelo Web App - Team PRJ
+# MeloMix powered by SpotifyAPI and Musixmatch API
 
-Michael Pinsonneault, Mark Sumoba, Sang Kyu Kim
+
+
